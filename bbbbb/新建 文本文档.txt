@@ -1,0 +1,13 @@
+while (true) {
+            boolean f = false;
+            for (int i = 2; i <= resZi; i++) {
+                if (resZi % i == 0 && resMu % i == 0) {
+                    resZi /= i;
+                    resMu /= i;
+                    f = true;
+                }
+            }
+            if (!f) {
+                break;
+            }
+        }
